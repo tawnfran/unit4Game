@@ -1,3 +1,14 @@
+
+body {
+    background-color: pink;
+
+
+}
+
+.mainBox {
+    background-color: pink;
+}
+
 /*4 picture containers- 25% each */
 .pictureBox {
     display: inline-flex;
@@ -9,5 +20,5 @@
 .pictures {
     display: inline-flex;
 
-}
 
+}
