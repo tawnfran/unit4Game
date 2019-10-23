@@ -1,0 +1,13 @@
+/*4 picture containers- 25% each */
+.pictureBox {
+    display: inline-flex;
+
+}
+
+
+/*using flexbox to get pics side-by-side */
+.pictures {
+    display: inline-flex;
+
+}
+
