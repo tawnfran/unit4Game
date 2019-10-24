@@ -14,42 +14,45 @@
 
 <body>
     <h1> Crystal Collector Simulation! </h1>
-    <p>
-        <h2> Instructions </h2>
-    </p>
-    <p> Try to get to the total by clicking on the 4 different crystals. Each crystal is worth a random value. If
-        you your value of the added crystals is equal to the total, then you have won! If you go over the total
-        value, then you lost. It will prompt you a new value after every win or loss and the value of the crystals
-        will reset too. </p>
-    <p>
-        <h2><span>Goal Value</span></h2>
-    </p>
-    <p>
-        <h2><span></span>Wins</span></h2>
-    </p>
-    <p>
-        <h2><span></span>Losses</span></h2>
-    </p>
-    <p>
-        <h2><span></span>Working Score</span></h2>
-    </p>
+    <div class="mainBox">
+        <p>
+            <h2> Instructions </h2>
+        </p>
+        <p> Try to get to the total by clicking on the 4 different crystals. Each crystal is worth a random value. If
+            you your value of the added crystals is equal to the total, then you have won! If you go over the total
+            value, then you lost. It will prompt you a new value after every win or loss and the value of the crystals
+            will reset too. </p>
+        <p>
+            <h2><span>Target Score:<span id="goal"></span></h2>
+        </p>
+        <p>
+            <h2><span>Wins:<span id="wins"></span></h2>
+        </p>
+        <p>
+            <h2><span>Losses:<span id="losses"></span></h2>
+        </p>
+        <p>
+            <h2><span>Working Score:<span id="guessTotal"></span></h2>
+        </p>
 
-    <div class="pictureBox">
-        <div class="pictures">
-            <img src="assets/images/bluegem.jpg" style="width:150px; height:150px"></div>
+        <div class="pictureBox">
+            <div class="pictures">
+               <img id="blue" src="assets/images/bluegem.jpg" style="width:150px; height:150px"></div>
 
-        <div class="pictures">
-            <img src="assets/images/purplegem.jpg" style="width:150px; height:150px"></div>
+            <div class="pictures">
+                <img id="purple" src="assets/images/purplegem.jpg" style="width:150px; height:150px"></div>
 
-        <div class="pictures">
-            <img src="assets/images/redgem.jpg" style="width:150px; height:150px"></div>
+            <div class="pictures">
+                <img id="red" src="assets/images/redgem.jpg" style="width:150px; height:150px"></div>
 
-        <div class="pictures">
-            <img src="assets/images/yellow gem.jpg" style="width:150px; height:150px"></div>
+            <div class="pictures">
+                <img id="yellow" src="assets/images/yellow gem.jpg" style="width:150px; height:150px"></div>
 
+            
+        </div>
     </div>
-
-
+    
+<script src="javascript.js"></script>
 
 </body>
 
